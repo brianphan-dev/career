@@ -33,7 +33,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-              I&apos;m an <strong className="text-purple-400">Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
+              I&apos;m an <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -143,7 +143,7 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Physical Security Technology @ AWS</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Physical Security Technology @ AWS</h3>
                   <p className="text-purple-400 mb-4">February 2025 - Present</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
@@ -158,7 +158,7 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Compliance Automation @ Amazon Devices & Services</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Compliance Automation @ Amazon Devices & Services</h3>
                   <p className="text-purple-400 mb-4">February 2024 - February 2025</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
@@ -173,7 +173,7 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Privacy Infrastructure @ Amazon Alexa</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Privacy Infrastructure @ Amazon Alexa</h3>
                   <p className="text-purple-400 mb-4">February 2020 - February 2024</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center">
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Machine Learning Engineering – Windows & Xbox @ Microsoft</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Machine Learning Engineer – Windows & Xbox @ Microsoft</h3>
                   <p className="text-purple-400 mb-4">February 2014 - December 2017</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-500 rounded-lg flex items-center justify-center">
@@ -337,7 +337,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-slate-700 bg-slate-900">
         <div className="max-w-6xl mx-auto text-center text-slate-400 text-sm">
-          <p>© 2026 Brian Phan. Engineering Manager @ AWS.</p>
+          <p>© 2026 Brian Phan. Software Engineering Manager @ AWS.</p>
         </div>
       </footer>
     </div>
