@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             <div className="shrink-0">
               <img
-                src="/headshot.png"
+                src="/career/headshot.png"
                 alt="Brian Phan"
                 className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl border-2 border-slate-700 shadow-2xl shadow-purple-900/20"
               />
