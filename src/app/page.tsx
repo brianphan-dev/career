@@ -302,15 +302,15 @@ export default function Home() {
               </p>
             </div>
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-4">Optimize for trust and speed, not control and process</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">High trust, high expectations, high support</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                High-performing teams run on trust. Process should exist only to protect trust, not replace it. When process exists because someone doesn&apos;t trust the team to make good decisions, I remove it. When trust breaks down because people lack visibility into each other&apos;s work, I add the minimal process to fix that.
+                I give engineers clear outcomes and real ownership, then make sure they have the context and resources to succeed. I&apos;m technically opinionated—I&apos;ll push hard on architecture and operational readiness in design reviews—but I don&apos;t tell people how to implement things. Process should exist only to protect trust, not replace it. When process exists because someone doesn&apos;t trust the team to make good decisions, I remove it. When trust breaks down because people lack visibility, I add the minimal process to fix that.
               </p>
             </div>
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
               <h3 className="text-xl font-semibold text-white mb-4">Your team&apos;s growth is your growth</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I&apos;ve coached eight engineers to promotion, helped engineers transition into TPM and data roles, and invested heavily in career development even when it meant losing a strong contributor. Seeing people grow is one of the most rewarding parts of management for me—it&apos;s core to who I am, not a box I check. And practically, it&apos;s how you build a reputation that attracts top talent.
+                I&apos;ve coached engineers to promotion by giving them progressively larger ownership with structured support, helped others transition into TPM and data roles, and invested heavily in career development even when it meant losing a strong contributor. Building people is as important to me as building systems—it&apos;s core to who I am, not a box I check. And practically, it&apos;s how you build a reputation that attracts top talent.
               </p>
             </div>
           </div>
