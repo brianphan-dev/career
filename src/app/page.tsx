@@ -294,11 +294,23 @@ export default function Home() {
               My approach comes from years of learning what actually moves the needle—building trust, removing blockers, and creating systems that let great engineers do their best work.
             </p>
           </div>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-6">Engineering Leadership Philosophy</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Create clarity in ambiguity</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I focus on empowering teams to deliver their best work by creating clear processes that support both individual growth and organizational goals. My approach combines deep technical expertise with pragmatic leadership—I believe in building systems and teams that scale efficiently while maintaining the highest standards for privacy, security, and user trust. I constantly adapt my leadership style based on what the team needs to succeed, whether that&apos;s removing blockers, providing technical mentorship, or driving strategic alignment across organizations.
+                Most teams don&apos;t lack talent—they lack clarity. What&apos;s the mission? What&apos;s most important this week? What does success look like? I make it my job to answer those questions or create conditions where the team answers them together. It sounds simple, but it&apos;s remarkable how many teams operate without a shared understanding of why they exist.
+              </p>
+            </div>
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
+              <h3 className="text-xl font-semibold text-white mb-4">Optimize for trust and speed, not control and process</h3>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                High-performing teams run on trust. Process should exist only to protect trust, not replace it. When process exists because someone doesn&apos;t trust the team to make good decisions, I remove it. When trust breaks down because people lack visibility into each other&apos;s work, I add the minimal process to fix that.
+              </p>
+            </div>
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
+              <h3 className="text-xl font-semibold text-white mb-4">Your team&apos;s growth is your growth</h3>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                I&apos;ve coached eight engineers to promotion, helped engineers transition into TPM and data roles, and invested heavily in career development even when it meant losing a strong contributor. Seeing people grow is one of the most rewarding parts of management for me—it&apos;s core to who I am, not a box I check. And practically, it&apos;s how you build a reputation that attracts top talent.
               </p>
             </div>
           </div>
