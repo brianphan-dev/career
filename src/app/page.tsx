@@ -25,23 +25,32 @@ export default function Home() {
       <section id="about" className="pt-32 pb-20 px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-slate-900 to-blue-900/20"></div>
         <div className="max-w-6xl mx-auto relative z-10">
-          <div className="max-w-4xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight text-white">
-              Engineering leader. 
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                Problem solver.
-              </span>
-            </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-              I&apos;m an <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
-                View Expertise
-              </a>
-              <a href="#contact" className="px-6 py-3 border border-slate-600 text-slate-300 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all">
-                Let&apos;s Connect
-              </a>
+          <div className="flex flex-col lg:flex-row items-center gap-12 animate-fade-in-up">
+            <div className="max-w-4xl lg:flex-1">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight text-white">
+                Engineering leader.
+                <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+                  Problem solver.
+                </span>
+              </h1>
+              <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
+                  View Expertise
+                </a>
+                <a href="#contact" className="px-6 py-3 border border-slate-600 text-slate-300 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all">
+                  Let&apos;s Connect
+                </a>
+              </div>
+            </div>
+            <div className="shrink-0">
+              <img
+                src="/headshot.png"
+                alt="Brian Phan"
+                className="w-64 h-80 lg:w-72 lg:h-96 object-cover rounded-2xl border-2 border-slate-700 shadow-2xl shadow-purple-900/20"
+              />
             </div>
           </div>
         </div>
