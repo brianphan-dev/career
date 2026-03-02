@@ -33,7 +33,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-              I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with over a decade of experience building large-scale distributed systems across Amazon and Microsoft. My background spans software engineering and data science, and I&apos;ve led teams across a range of domains—from machine learning to backend infrastructure. Lately, I&apos;ve been focused on building the service platform for maintaining physical security for AWS sites around the globe.
+              I&apos;m an <strong className="text-purple-400">Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -143,42 +143,37 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Development Manager @ AWS Security</h3>
-                  <p className="text-purple-400 mb-4">May 2025 - Present</p>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Physical Security Technology @ AWS</h3>
+                  <p className="text-purple-400 mb-4">February 2025 - Present</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">AWS</span>
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Responsible for video management and AI-powered analytical services that secure AWS data centers, Amazon corporate buildings, 
-                warehouse fulfillment centers, Prime Air facilities, and more worldwide. This system is fundamental to physical security 
-                operations that safeguard employees, critical infrastructure, intellectual property, and customer data. Leading resilient 
-                on-premise video management solutions and AI-powered analytical innovations for unauthorized access detection.
+                Leading 10 engineers across two teams building the Optics video platform—a video management system and suite of AI-powered analytical services securing 2,355+ AWS data centers, fulfillment centers, and Prime Air facilities worldwide. Designing ML-powered unauthorized access detection systems that drive $475M in cost savings by eliminating 99.8% of false alarms and reducing investigation time by 99%. Architecting resilient on-premise edge computing and video streaming solutions for air-gapped environments, while driving zero-touch provisioning that cuts device deployment from 6 weeks to 2 across global facility buildouts.
               </p>
             </div>
             
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Development Manager @ Amazon Devices & Services Privacy</h3>
-                  <p className="text-purple-400 mb-4">February 2024 - May 2025</p>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Compliance Automation @ Amazon Devices & Services</h3>
+                  <p className="text-purple-400 mb-4">February 2024 - February 2025</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xs">AMZ</span>
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Led compliance automation at scale for Devices &amp; Services Trust &amp; Privacy, driving initiatives that enable automatic, 
-                auditable enforcement of global regulations like GDPR, CCPA, and Digital Markets Act (DMA) for Amazon Devices &amp; Services 
-                (eero, Ring, FireTV, Alexa, Kindle, Kuiper, and more).
+                Managed 12 engineers automating privacy compliance (GDPR, CCPA, DMA) across 10+ Amazon Devices product lines serving hundreds of millions of customers. Built automated DSAR obligation detection using data flow lineage analysis, reducing unknown coverage areas by 75.5% with 100% DynamoDB coverage. Designed a data governance system achieving automated policy verification across 85% of datastores and remediating 60% of non-compliant objects across 1,600+ datasets. Drove pipeline improvements that reduced customer-facing obligations by 74% and false positives by 93%.
               </p>
             </div>
 
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Development Manager @ Amazon Alexa Privacy</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Engineering Manager – Privacy Infrastructure @ Amazon Alexa</h3>
                   <p className="text-purple-400 mb-4">February 2020 - February 2024</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center">
@@ -186,16 +181,14 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Built privacy-preserving infrastructure including high-throughput privacy tools hosted on secure enclaves, 
-                automated child data egress control using XACML, and specialized auditing services leveraging advanced modeling 
-                techniques to measure privacy risks. Led development of critical privacy infrastructure at scale.
+                Built and grew a team of 8 engineers from zero, owning all privacy-preserving data infrastructure for Alexa&apos;s ML and BI pipelines—establishing engineering levels, running calibrations, and coaching 3 engineers to promotion. Designed and launched Alexa Data Anonymizer (ADA), a distributed data transformation system reducing reidentification risk by 75%. Built high-throughput pseudonymization services processing 10&sup1;&sup3;+ records in isolated compute at sub-10ms latency, eliminating 90% of manual privacy review effort. Defined the team&apos;s multi-year technical roadmap, partnering with Legal, Policy, and Applied Science to translate evolving regulatory requirements into automated solutions.
               </p>
             </div>
 
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Development Engineer @ Amazon Alexa Mobile & Entertainment</h3>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineer – Mobile & Entertainment Platforms @ Amazon Alexa</h3>
                   <p className="text-purple-400 mb-4">December 2017 - February 2020</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg flex items-center justify-center">
@@ -203,45 +196,88 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Scaled core services powering Alexa&apos;s mobile, media, web, and backend platforms during international expansion to 40+ countries. 
-                Delivered 100x efficiency gains driving $50M–$75M in annual productivity improvements. Enhanced customer experience 
-                increasing Alexa Mobile App ratings from 1.5 to 4.6 stars, contributing to Amazon Music&apos;s growth to $1.5B annual revenue.
+                Built full-stack services (Java backend, TypeScript/React frontend) powering Alexa&apos;s mobile, media, and web platforms across 40+ countries, delivering 100x efficiency gains driving $50M–$75M in annual savings. Led the redesign of the Alexa Mobile App experience, contributing to ratings improvement from 1.5 to 4.6 stars and supporting Amazon Music&apos;s growth to $1.5B annual revenue.
               </p>
             </div>
 
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineer @ Microsoft Xbox Store</h3>
-                  <p className="text-purple-400 mb-4">April 2015 - December 2017</p>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Machine Learning Engineering – Windows & Xbox @ Microsoft</h3>
+                  <p className="text-purple-400 mb-4">February 2014 - December 2017</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xs">MS</span>
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Built and scaled Microsoft&apos;s marketplace services powering Xbox Live, Office, Windows, and Phone commerce functionality. 
-                Developed licensing and entitlement services supporting Xbox One&apos;s global launch, ensuring secure, high-availability access 
-                to digital content across millions of users. Reduced Microsoft Catalog publishing latency from 18 hours to near-instant, 
-                and increased content delivery throughput by 18% while reducing costs by 40%.
+                Redesigned the Xbox Marketplace content publishing pipeline (C#/.NET backend, JavaScript frontend), reducing publishing latency from 18 hours to near-instant while increasing throughput by 18% and cutting costs by 40%. Designed an NLP-based feedback classification system using Python and Azure ML to route customer signals across 30+ Windows engineering teams, improving triage accuracy and response time.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
-              <div className="flex items-start justify-between mb-4">
+      {/* Education & Certifications */}
+      <section id="education" className="py-20 px-6 bg-slate-800">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+              Education & Certifications
+            </h2>
+          </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+              <div className="flex items-start justify-between">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Data Scientist @ Microsoft Windows</h3>
-                  <p className="text-purple-400 mb-4">February 2014 - April 2015</p>
+                  <h3 className="text-xl font-semibold text-white mb-2">University of Maryland, College Park</h3>
+                  <p className="text-slate-300">B.S. in Computer Science, Mathematics, and Geographic Information Systems</p>
                 </div>
-                <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">MS</span>
+                <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-yellow-500 rounded-lg flex items-center justify-center shrink-0 ml-4">
+                  <span className="text-white font-bold text-xs">UMD</span>
                 </div>
               </div>
-              <p className="text-slate-300 leading-relaxed">
-                Developed machine learning models and derived insights to improve operating system quality for Windows, Windows Phone, 
-                Xbox, Azure, and internal back-end systems. Applied advanced analytics and data science techniques to enhance 
-                engineering team decision-making and product quality across Microsoft&apos;s ecosystem.
-              </p>
+            </div>
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-semibold text-white mb-4">Certifications</h3>
+              <div className="flex flex-wrap gap-4">
+                <span className="px-4 py-2 bg-purple-900/30 border border-purple-500/30 rounded-lg text-purple-300">ISC2 CC – Certified in Cybersecurity</span>
+                <span className="px-4 py-2 bg-blue-900/30 border border-blue-500/30 rounded-lg text-blue-300">IAPP CIPT – Certified Information Privacy Technologist</span>
+                <span className="px-4 py-2 bg-emerald-900/30 border border-emerald-500/30 rounded-lg text-emerald-300">Top Secret Security Clearance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Skills */}
+      <section id="skills" className="py-20 px-6 bg-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+              Technical Skills
+            </h2>
+          </div>
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Languages</h3>
+              <div className="flex flex-wrap gap-3">
+                {["Java", "Python", "C/C++", "JavaScript/TypeScript", "C#", "SQL"].map((skill) => (
+                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
+              <div className="flex flex-wrap gap-3">
+                {["Full-Stack Distributed Systems", "Large-Scale Video Platforms", "ML/AI Detection Pipelines", "Data Pipeline Architecture", "Privacy-Preserving AI/ML", "Cloud Infrastructure", "On-Premises Edge Computing", "Hybrid Cloud-Edge Architecture", "Sensor Fusion & Camera Networks", "CI/CD & Agile Delivery"].map((skill) => (
+                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -274,9 +310,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-light text-white mb-12">Let&apos;s Connect</h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <a href="mailto:brianphan06@gmail.com" 
+            <a href="mailto:Brian_Phan@outlook.com" 
                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105">
-              BrianPhan06@gmail.com
+              Brian_Phan@outlook.com
             </a>
             <a href="https://www.linkedin.com/in/brianphan-dev" target="_blank" rel="noopener noreferrer" 
                className="px-8 py-4 border border-slate-600 text-slate-300 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all">
@@ -289,7 +325,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-slate-700 bg-slate-900">
         <div className="max-w-6xl mx-auto text-center text-slate-400 text-sm">
-          <p>© 2025 Brian Phan. Software Engineering Manager @ AWS.</p>
+          <p>© 2026 Brian Phan. Engineering Manager @ AWS.</p>
         </div>
       </footer>
     </div>
