@@ -34,7 +34,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of full-stack software development across Amazon and Microsoft. I lead teams that design and ship large-scale video platforms, ML-powered detection systems, and privacy-preserving data infrastructure. I combine hands-on systems design with people leadership—building teams from zero, coaching engineers, and defining multi-year technical roadmaps in complex, cross-functional organizations.
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of software development experience across Amazon and Microsoft. Currently leading teams building physical security infrastructure—on-premises edge computing platforms, AI-powered threat detection systems, and resilient video surveillance networks—securing 2,355+ facilities worldwide. Proven track record of delivering complex distributed systems under tight deadlines, building high-performing teams from zero, and driving multi-org technical roadmaps in high-stakes, cross-functional environments.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -152,8 +152,8 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Physical Security Technology @ AWS</h3>
-                  <p className="text-purple-400 mb-4">February 2025 - Present</p>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Physical Security Technology (TS/SCI) @ AWS</h3>
+                  <p className="text-purple-400 mb-4">February 2024 - Present</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">AWS</span>
@@ -168,7 +168,7 @@ export default function Home() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Compliance Automation @ Amazon Devices & Services</h3>
-                  <p className="text-purple-400 mb-4">February 2024 - February 2025</p>
+                  <p className="text-purple-400 mb-4">February 2022 - February 2024</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xs">AMZ</span>
@@ -183,7 +183,7 @@ export default function Home() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">Software Engineering Manager – Privacy Infrastructure @ Amazon Alexa</h3>
-                  <p className="text-purple-400 mb-4">February 2020 - February 2024</p>
+                  <p className="text-purple-400 mb-4">February 2020 - February 2022</p>
                 </div>
                 <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xs">AMZ</span>
