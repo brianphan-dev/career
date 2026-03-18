@@ -34,7 +34,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of software development experience across Amazon and Microsoft. Currently leading teams building physical security infrastructure—on-premises edge computing platforms, AI-powered threat detection systems, and resilient video surveillance networks—securing 2,355+ facilities worldwide. Proven track record of delivering complex distributed systems under tight deadlines, building high-performing teams from zero, and driving multi-org technical roadmaps in high-stakes, cross-functional environments.
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of software development experience across Amazon and Microsoft. Currently leading teams building physical security infrastructure—on-premises edge computing platforms, AI-powered threat detection systems, resilient video surveillance networks, and fleet-scale device provisioning automation—securing 2,355+ facilities worldwide. Proven track record of delivering complex distributed systems under tight deadlines, building high-performing teams from zero, and driving multi-org technical roadmaps in high-stakes, cross-functional environments.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -160,7 +160,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Leading 10 engineers across two teams building the Optics video platform—a video management system and suite of AI-powered analytical services securing 2,355+ AWS data centers, fulfillment centers, and Prime Air facilities worldwide. Designing ML-powered unauthorized access detection systems that drive $475M in cost savings by eliminating 99.8% of false alarms and reducing investigation time by 99%. Architecting resilient on-premise edge computing and video streaming solutions for air-gapped environments, while driving zero-touch provisioning that cuts device deployment from 6 weeks to 2 across global facility buildouts.
+                Leading 10 engineers across two teams building the Optics video platform—a video management system and suite of AI-powered analytical services securing 2,355+ AWS data centers, fulfillment centers, and Prime Air facilities worldwide. Designing ML-powered unauthorized access detection systems that drive $475M in cost savings by eliminating 99.8% of false alarms (5.7M annually) and reducing investigation time by 99% (357K hours/year). Architecting resilient on-premise edge computing and video streaming solutions, running bi-weekly release cycles to iterate on detection accuracy while maintaining reliability in air-gapped environments. Driving zero-touch provisioning roadmap across PhySec, InfraSec, Networking, and DCEng orgs, cutting device deployment from 6 weeks to 2 and enabling predictable scaling across global facility buildouts.
               </p>
             </div>
             
@@ -175,7 +175,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                Managed 12 engineers automating privacy compliance (GDPR, CCPA, DMA) across 10+ Amazon Devices product lines serving hundreds of millions of customers. Built automated DSAR obligation detection using data flow lineage analysis, reducing unknown coverage areas by 75.5% with 100% DynamoDB coverage. Designed a data governance system achieving automated policy verification across 85% of datastores and remediating 60% of non-compliant objects across 1,600+ datasets. Drove pipeline improvements that reduced customer-facing obligations by 74% and false positives by 93%.
+                Managed 12 engineers automating privacy compliance (GDPR, CCPA, DMA) across 10+ Amazon Devices product lines serving hundreds of millions of customers. Built automated DSAR obligation detection using data flow lineage analysis, reducing unknown coverage areas by 75.5% across DynamoDB, Redshift, and S3, with 100% DDB coverage. Designed a data governance system achieving automated policy verification across 85% of datastores, reducing builder churn by 45% and remediating 60% of non-compliant objects across 1,600+ datasets. Drove data pipeline improvements reducing customer-facing obligations by 74% and false positives by 93%, directly improving end-user trust and reducing operational support burden.
               </p>
             </div>
 
@@ -252,7 +252,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-4">
                 <span className="px-4 py-2 bg-purple-900/30 border border-purple-500/30 rounded-lg text-purple-300">ISC2 CC – Certified in Cybersecurity</span>
                 <span className="px-4 py-2 bg-blue-900/30 border border-blue-500/30 rounded-lg text-blue-300">IAPP CIPT – Certified Information Privacy Technologist</span>
-                <span className="px-4 py-2 bg-emerald-900/30 border border-emerald-500/30 rounded-lg text-emerald-300">Top Secret Security Clearance</span>
+                <span className="px-4 py-2 bg-emerald-900/30 border border-emerald-500/30 rounded-lg text-emerald-300">Top Secret / SCI Clearance</span>
               </div>
             </div>
           </div>
@@ -281,7 +281,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
               <div className="flex flex-wrap gap-3">
-                {["Full-Stack Distributed Systems", "Large-Scale Video Platforms", "ML/AI Detection Pipelines", "Data Pipeline Architecture", "Privacy-Preserving AI/ML", "Cloud Infrastructure", "On-Premises Edge Computing", "Hybrid Cloud-Edge Architecture", "Sensor Fusion & Camera Networks", "CI/CD & Agile Delivery"].map((skill) => (
+                {["Data Center Management", "Physical Security", "Full Stack Distributed Systems", "Large-Scale Video Platforms", "ML/AI Detection Pipelines", "Data Pipeline Architecture", "Privacy-Preserving AI/ML", "Cloud Infrastructure", "On-Premises Edge Computing", "Hybrid Cloud-Edge Architecture", "Sensor Fusion & Camera Networks", "CI/CD & Agile Delivery"].map((skill) => (
                   <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
                     {skill}
                   </span>
