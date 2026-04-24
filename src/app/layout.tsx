@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Brian Phan",
-  description: "Engineering leader with over a decade of experience delivering large-scale privacy and security solutions, driving AI/ML-powered compliance automation, and leading teams to mitigate enterprise risks.",
+  description: "Software Engineering Manager building data center infrastructure software at AWS. Leading teams in AI-powered threat detection, on-premises edge computing, fleet provisioning automation, and camera compliance monitoring across 2,355+ facilities.",
 };
 
 export default function RootLayout({
