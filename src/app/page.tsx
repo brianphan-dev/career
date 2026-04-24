@@ -28,13 +28,13 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-12 animate-fade-in-up">
             <div className="max-w-4xl lg:flex-1">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight text-white">
-                Engineering leader.
+                Building software that secures
                 <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                  Problem solver.
+                  {" "}physical infrastructure.
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> with 12+ years of software development experience across Amazon and Microsoft. Currently leading teams building physical security infrastructure—on-premises edge computing platforms, AI-powered threat detection systems, resilient video surveillance networks, and fleet-scale device provisioning automation—securing 2,355+ facilities worldwide. Proven track record of delivering complex distributed systems under tight deadlines, building high-performing teams from zero, and driving multi-org technical roadmaps in high-stakes, cross-functional environments.
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading 10 engineers building the systems that secure Amazon&apos;s data centers—AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring across 2,355+ facilities. Where software failures have physical consequences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -61,66 +61,44 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              Building teams that thrive.
+              What I build.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              I believe great engineering comes from empowering talented people with the right tools, processes, and security—while never losing sight of what matters most.
+              I lead teams building systems that run inside data centers, not just on top of them—where operational failure has physical consequences and the engineering challenge is as much about fleet-scale reliability as it is about the code.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Operational Security */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* DC Infrastructure & Edge Computing */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Operational Security</h3>
-              <p className="text-slate-300 leading-relaxed">Cloud and on-premise physical security systems. End-to-end device and video management services with ML and CV detection.</p>
-            </div>
-
-            {/* Compliance Automation */}
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Compliance Automation</h3>
-              <p className="text-slate-300 leading-relaxed">Privacy-preserving infrastructure, secure enclaves, and XACML-based data governance. GDPR, CCPA, DMA automation and enforcement at global scale.</p>
-            </div>
-
-            {/* Distributed Systems */}
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Distributed Systems</h3>
-              <p className="text-slate-300 leading-relaxed">Large-scale microservices architecture, high-availability systems, and resilient infrastructure design.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">DC Infrastructure & Edge Computing</h3>
+              <p className="text-slate-300 leading-relaxed">On-premises platforms in air-gapped data centers with store-and-forward resilience. Fleet management across 2,355+ sites. Staggered rollouts, local resilience buffers, and deployment strategies where &quot;just redeploy&quot; isn&apos;t an option.</p>
             </div>
 
-            {/* AI & Machine Learning */}
+            {/* AI-Powered Detection Systems */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">AI & Machine Learning</h3>
-              <p className="text-slate-300 leading-relaxed">AI-powered security analytics, unauthorized access detection, predictive modeling, and advanced data science.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">AI-Powered Detection Systems</h3>
+              <p className="text-slate-300 leading-relaxed">Computer vision pipelines for physical security—cross-verification of access control signals with video analysis. Shadow mode rollout methodology with per-site evaluation frameworks and automatic reversion. Real-time camera compliance monitoring across 300,000+ devices.</p>
             </div>
 
-            {/* Platform Engineering */}
+            {/* Fleet Automation & Provisioning */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-purple-500 rounded-lg mb-6 flex items-center justify-center">
+              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Platform Engineering</h3>
-              <p className="text-slate-300 leading-relaxed">Commerce platforms, content delivery systems, licensing services, and marketplace infrastructure.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Fleet Automation & Provisioning</h3>
+              <p className="text-slate-300 leading-relaxed">Zero-touch device deployment across four organizations—event-driven provisioning pipelines compressing 6-week timelines to 2. Cross-org coalition building, phased delivery with independent deliverables, and automated safety checks replacing manual validation.</p>
             </div>
 
             {/* Engineering Leadership */}
@@ -131,7 +109,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
-              <p className="text-slate-300 leading-relaxed">Leading cross-functional teams, scaling organizations, mentorship, and driving strategic technical initiatives.</p>
+              <p className="text-slate-300 leading-relaxed">Building teams from zero, cross-org coalition building, structured autonomy. Zero regrettable attrition over 18 months. Hands-on technical leadership—code reviews, architecture decisions, and writing the business case documents myself.</p>
             </div>
           </div>
         </div>
@@ -142,10 +120,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              From startup hustle to enterprise scale.
+              12 years across Microsoft and Amazon.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              I&apos;ve helped teams grow from scrappy beginnings to powering millions of users, learning what works (and what doesn&apos;t) along the way.
+              From ML engineering to platform engineering to management—building progressively more complex systems and teams, now focused on data center infrastructure at global scale.
             </p>
           </div>
           <div className="space-y-8">
@@ -281,7 +259,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
               <div className="flex flex-wrap gap-3">
-                {["Data Center Management", "Physical Security", "Full Stack Distributed Systems", "Large-Scale Video Platforms", "ML/AI Detection Pipelines", "Data Pipeline Architecture", "Privacy-Preserving AI/ML", "Cloud Infrastructure", "On-Premises Edge Computing", "Hybrid Cloud-Edge Architecture", "Sensor Fusion & Camera Networks", "CI/CD & Agile Delivery"].map((skill) => (
+                {["Data Center Infrastructure Management", "Fleet Management & Provisioning", "On-Premises Edge Computing", "Air-Gapped Deployment", "Physical Security Systems", "ML/AI Detection Pipelines", "Large-Scale Video Platforms", "Hybrid Cloud-Edge Architecture", "Distributed Systems", "Data Center Network Fabrics", "Device Provisioning Automation", "CI/CD & Agile Delivery"].map((skill) => (
                   <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
                     {skill}
                   </span>
@@ -300,26 +278,26 @@ export default function Home() {
               Leadership through real experience.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              My approach comes from years of learning what actually moves the needle—building trust, removing blockers, and creating systems that let great engineers do their best work.
+              My leadership approach comes from building and operating systems where the stakes are physical—cameras stop recording, alarms stop firing, data centers can&apos;t activate. That context shapes everything about how I manage.
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-4">Create clarity in ambiguity</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Give engineers the hardest problem they can handle, then get out of the way.</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                Most teams don&apos;t lack talent—they lack clarity. What&apos;s the mission? What&apos;s most important this week? What does success look like? I make it my job to answer those questions or create conditions where the team answers them together. It sounds simple, but it&apos;s remarkable how many teams operate without a shared understanding of why they exist.
+                I match engineers to problems that stretch them, give them the context to make good decisions without me, and protect their time from organizational noise. I stay technically involved—I do code reviews on critical paths, lead architecture decisions, and wrote the business case for our largest cross-org program myself. But I measure my impact by how independently my team operates, not by how much I personally contribute.
               </p>
             </div>
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-4">High trust, high expectations, high support</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Build coalitions, not empires.</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I give engineers clear outcomes and real ownership, then make sure they have the context and resources to succeed. I&apos;m technically opinionated—I&apos;ll push hard on architecture and operational readiness in design reviews—but I don&apos;t tell people how to implement things. Process should exist only to protect trust, not replace it. When process exists because someone doesn&apos;t trust the team to make good decisions, I remove it. When trust breaks down because people lack visibility, I add the minimal process to fix that.
+                The hardest problems in infrastructure live in the gaps between organizations. Our largest program required aligning four teams with four leadership chains—none reporting to me. I wrote the business case, ran working sessions where each team&apos;s constraints were reflected in the design, and structured delivery so one team&apos;s delay couldn&apos;t block another&apos;s value. The team that initially pushed back became our strongest advocates after they co-designed the safety checks. Alignment comes from co-creation, not convincing.
               </p>
             </div>
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
-              <h3 className="text-xl font-semibold text-white mb-4">Your team&apos;s growth is your growth</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Invest in people like it&apos;s engineering work.</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I&apos;ve coached engineers to promotion by giving them progressively larger ownership with structured support, helped others transition into TPM and data roles, and invested heavily in career development even when it meant losing a strong contributor. Building people is as important to me as building systems—it&apos;s core to who I am, not a box I check. And practically, it&apos;s how you build a reputation that attracts top talent.
+                I&apos;ve coached engineers to promotion, supported transitions into new roles, and retained every engineer I wanted to keep over 18 months. Career development isn&apos;t a quarterly conversation—it&apos;s collecting evidence month over month, matching stretch assignments to individual goals, and advocating with specifics, not generalities. I rotate strong engineers across workstreams deliberately so they don&apos;t stale out—the variety is often the single biggest retention lever, especially in a domain where &quot;cool product&quot; isn&apos;t the draw.
               </p>
             </div>
           </div>
