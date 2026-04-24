@@ -211,9 +211,9 @@ export default function Home() {
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Lead 10 engineers across two teams building the Optics video platform, securing 2,355+ AWS data centers, fulfillment centers, and Prime Air facilities worldwide</li>
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Design ML-powered unauthorized access detection targeting <strong className="text-white">48% reduction</strong> of false alarms and <strong className="text-white">43,000+ hours</strong> of annual investigation time savings</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Design ML-powered unauthorized access detection targeting 48% reduction of false alarms and 43,000+ hours of annual investigation time savings</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Architect resilient on-premises edge computing and video streaming solutions for air-gapped environments with bi-weekly release cycles</li>
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Drive zero-touch provisioning roadmap across four organizations, cutting device deployment from <strong className="text-white">6 weeks to 2</strong> per site</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Drive zero-touch provisioning roadmap across four organizations, cutting device deployment from 6 weeks to 2 per site</li>
               </ul>
             </div>
 
@@ -229,8 +229,8 @@ export default function Home() {
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Managed 12 engineers automating privacy compliance (GDPR, CCPA, DMA) across 10+ product lines serving hundreds of millions of customers</li>
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built automated DSAR detection reducing unknown coverage areas by <strong className="text-white">75.5%</strong> across DynamoDB, Redshift, and S3</li>
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Designed data governance system achieving <strong className="text-white">85%</strong> automated policy verification across 1,600+ datasets</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built automated DSAR detection reducing unknown coverage areas by 75.5% across DynamoDB, Redshift, and S3</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Designed data governance system achieving 85% automated policy verification across 1,600+ datasets</li>
               </ul>
             </div>
 
@@ -245,7 +245,7 @@ export default function Home() {
                 </div>
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built and grew a team of <strong className="text-white">8 engineers from zero</strong>. Established engineering levels, ran calibrations, coached 3 engineers to promotion</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built and grew a team of 8 engineers from zero. Established engineering levels, ran calibrations, coached 3 engineers to promotion</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Designed and launched Alexa Data Anonymizer (ADA), reducing reidentification risk by 75%</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built pseudonymization services processing 10&#xB9;&#xB3;+ records at sub-10ms latency</li>
               </ul>
@@ -262,7 +262,7 @@ export default function Home() {
                 </div>
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built full-stack services powering Alexa&apos;s mobile, media, and web platforms across 40+ countries, driving <strong className="text-white">$50M-$75M</strong> in annual savings</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built full-stack services powering Alexa&apos;s mobile, media, and web platforms across 40+ countries, driving $50M-$75M in annual savings</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Led redesign of Alexa Mobile App experience, contributing to ratings improvement from 1.5 to 4.6 stars</li>
               </ul>
             </div>
@@ -278,7 +278,7 @@ export default function Home() {
                 </div>
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Redesigned Xbox Marketplace publishing pipeline, reducing latency from <strong className="text-white">18 hours to near-instant</strong> while cutting costs 40%</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Redesigned Xbox Marketplace publishing pipeline, reducing latency from 18 hours to near-instant while cutting costs 40%</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Designed NLP-based feedback classification system routing customer signals across 30+ Windows teams</li>
               </ul>
             </div>
