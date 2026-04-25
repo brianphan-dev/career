@@ -403,9 +403,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-light text-white mb-12">Let&apos;s Connect</h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <a href="mailto:Brian_Phan@outlook.com"
+            <a href="mailto:BrianPhan06@gmail.com"
                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105">
-              Brian_Phan@outlook.com
+              BrianPhan06@gmail.com
             </a>
             <a href="https://www.linkedin.com/in/brianphan-dev" target="_blank" rel="noopener noreferrer"
                className="px-8 py-4 border border-slate-600 text-slate-300 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all">
