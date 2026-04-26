@@ -245,7 +245,7 @@ export default function Home() {
                 </div>
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built and grew a team of 8 engineers from zero. Established engineering levels, ran calibrations, coached 3 engineers to promotion</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built and grew a team from zero. Established engineering levels, ran calibrations, and coached engineers to promotion</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Designed and launched Alexa Data Anonymizer (ADA), reducing reidentification risk by 75%</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Built pseudonymization services processing 10&#xB9;&#xB3;+ records at sub-10ms latency</li>
               </ul>
