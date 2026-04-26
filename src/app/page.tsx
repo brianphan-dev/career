@@ -35,7 +35,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading 10 engineers building the systems that secure Amazon&apos;s data centers: AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring across 2,355+ facilities. Where software failures have physical consequences.
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading teams building the systems that secure Amazon&apos;s data centers: AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring across 2,355+ facilities, where software failures have physical consequences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#projects" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -181,7 +181,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
-              <p className="text-slate-300 leading-relaxed">Building teams from zero, driving cross-org coalitions, structured autonomy. Zero regrettable attrition over 18 months. Hands-on technical leadership: code reviews, architecture decisions, and writing the business case documents myself.</p>
+              <p className="text-slate-300 leading-relaxed">Building teams from zero, driving cross-org coalitions, structured autonomy. Hands-on technical leadership: code reviews, architecture decisions, and writing the business case documents myself.</p>
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ export default function Home() {
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8">
               <h3 className="text-xl font-semibold text-white mb-4">Invest in people like it&apos;s engineering work.</h3>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I&apos;ve coached engineers to promotion, supported transitions into new roles, and retained every engineer I wanted to keep over 18 months. Career development isn&apos;t a quarterly conversation. It&apos;s collecting evidence month over month, matching stretch assignments to individual goals, and advocating with specifics rather than generalities. I rotate strong engineers across workstreams deliberately so they don&apos;t stale out. The variety is often the single biggest retention lever, especially in a domain where &quot;cool product&quot; isn&apos;t the draw.
+                I&apos;ve coached engineers to promotion and supported transitions into new roles. Career development isn&apos;t a quarterly conversation. It&apos;s collecting evidence month over month, matching stretch assignments to individual goals, and advocating with specifics rather than generalities. I rotate strong engineers across workstreams deliberately so they don&apos;t stale out. The variety is often the single biggest retention lever, especially in a domain where &quot;cool product&quot; isn&apos;t the draw.
               </p>
             </div>
           </div>
