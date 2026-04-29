@@ -7,9 +7,9 @@ export default function Home() {
           <h1 className="text-xl font-bold text-white">Brian Phan</h1>
           <nav className="hidden md:flex space-x-6 text-sm desktop-nav">
             <a href="#about" className="text-slate-300 hover:text-purple-400 transition-colors">About</a>
+            <a href="#expertise" className="text-slate-300 hover:text-purple-400 transition-colors">Expertise</a>
             <a href="#projects" className="text-slate-300 hover:text-purple-400 transition-colors">Projects</a>
             <a href="#experience" className="text-slate-300 hover:text-purple-400 transition-colors">Experience</a>
-            <a href="#expertise" className="text-slate-300 hover:text-purple-400 transition-colors">Expertise</a>
             <a href="#contact" className="text-slate-300 hover:text-purple-400 transition-colors">Contact</a>
           </nav>
           <div className="md:hidden">
@@ -319,41 +319,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Technical Skills */}
-      <section id="skills" className="py-20 px-6 bg-slate-800">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              Technical Skills
-            </h2>
-          </div>
-          <div className="max-w-4xl mx-auto space-y-8">
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Languages</h3>
-              <div className="flex flex-wrap gap-3">
-                {["Java", "Python", "C/C++", "JavaScript/TypeScript", "C#", "SQL"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-slate-900/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
-              <div className="flex flex-wrap gap-3">
-                {["Data Center Infrastructure Management", "Fleet Management & Provisioning", "On-Premises Edge Computing", "Air-Gapped Deployment", "Physical Security Systems", "ML/AI Detection Pipelines", "Large-Scale Video Platforms", "Hybrid Cloud-Edge Architecture", "Distributed Systems", "Data Center Network Fabrics", "Device Provisioning Automation", "CI/CD & Agile Delivery"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-slate-900/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Philosophy */}
-      <section className="py-20 px-6 bg-slate-900">
+      <section className="py-20 px-6 bg-slate-800">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
@@ -386,6 +353,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Technical Skills */}
+      <section id="skills" className="py-20 px-6 bg-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+              Technical Skills
+            </h2>
+          </div>
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Languages</h3>
+              <div className="flex flex-wrap gap-3">
+                {["Java", "Python", "C/C++", "JavaScript/TypeScript", "C#", "SQL"].map((skill) => (
+                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
+              <div className="flex flex-wrap gap-3">
+                {["Data Center Infrastructure Management", "Fleet Management & Provisioning", "On-Premises Edge Computing", "Air-Gapped Deployment", "Physical Security Systems", "ML/AI Detection Pipelines", "Large-Scale Video Platforms", "Hybrid Cloud-Edge Architecture", "Distributed Systems", "Data Center Network Fabrics", "Device Provisioning Automation", "CI/CD & Agile Delivery"].map((skill) => (
+                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What I'm Looking For */}
       <section className="py-20 px-6 bg-slate-800">
         <div className="max-w-4xl mx-auto text-center">
@@ -393,7 +393,7 @@ export default function Home() {
             What I&apos;m looking for.
           </h2>
           <p className="text-lg text-slate-300 leading-relaxed">
-            I&apos;m interested in roles where software directly manages physical infrastructure: fleet management, data center automation, infrastructure reliability. I&apos;ve spent two years building applications that run on top of data center infrastructure. I want to work on the layer below: the systems that manage the infrastructure itself. Same domain, different layer.
+            I&apos;m interested in roles where software directly manages physical infrastructure: fleet management, data center automation, infrastructure reliability. Same domain I work in today, different layer.
           </p>
         </div>
       </section>
