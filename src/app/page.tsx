@@ -57,8 +57,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Areas of Expertise */}
+      <section id="expertise" className="py-20 px-6 bg-slate-800">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+              What I build.
+            </h2>
+            <p className="text-slate-300 text-lg max-w-3xl mx-auto">
+              Systems that run inside data centers, not just on top of them.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* DC Infrastructure & Edge Computing */}
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">DC Infrastructure & Edge Computing</h3>
+              <p className="text-slate-300 leading-relaxed">Designing software for air-gapped environments where you can&apos;t just redeploy. Store-and-forward resilience, staggered fleet rollouts with automated validation, and local-first architectures that survive connectivity loss without human intervention.</p>
+            </div>
+
+            {/* AI-Powered Detection Systems */}
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
+              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">AI/ML Systems in Production</h3>
+              <p className="text-slate-300 leading-relaxed">Taking ML models from training to fleet-wide deployment. Shadow mode rollout methodology, per-site evaluation frameworks with automatic reversion, and the organizational trust-building required to replace manual processes with AI.</p>
+            </div>
+
+            {/* Fleet Automation & Provisioning */}
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
+              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Fleet Automation & Cross-Org Programs</h3>
+              <p className="text-slate-300 leading-relaxed">Event-driven automation replacing manual coordination at scale. Writing the business case, building the coalition across organizations that don&apos;t report to you, and structuring delivery so independent teams can ship without blocking each other.</p>
+            </div>
+
+            {/* Engineering Leadership */}
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
+              <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg mb-6 flex items-center justify-center">
+                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
+              <p className="text-slate-300 leading-relaxed">Building teams from zero, hands-on technical leadership through code reviews and architecture decisions, and developing engineers through stretch assignments matched to career goals. Structured autonomy: clear goals, real ownership, protected focus.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Projects */}
-      <section id="projects" className="py-20 px-6 bg-slate-800">
+      <section id="projects" className="py-20 px-6 bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
@@ -69,7 +128,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -83,7 +142,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +156,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,7 +170,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
+            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,65 +182,6 @@ export default function Home() {
               <p className="text-slate-300 leading-relaxed">
                 AI system continuously monitoring 300,000+ cameras for coverage gaps, field-of-view drift, and video quality issues. Three complementary detection mechanisms cut issue detection from 18-month manual audit cycles to 5 seconds. Reduced daily operator review from 1,037 cameras to 21. Adopted by a second team without re-engineering the core system.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Areas of Expertise */}
-      <section id="expertise" className="py-20 px-6 bg-slate-900">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              What I build.
-            </h2>
-            <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              Systems that run inside data centers, not just on top of them.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* DC Infrastructure & Edge Computing */}
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">DC Infrastructure & Edge Computing</h3>
-              <p className="text-slate-300 leading-relaxed">On-premises platforms in air-gapped data centers with store-and-forward resilience. Fleet management across 2,355+ sites. Staggered rollouts, local resilience buffers, and deployment strategies where &quot;just redeploy&quot; isn&apos;t an option.</p>
-            </div>
-
-            {/* AI-Powered Detection Systems */}
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">AI-Powered Detection Systems</h3>
-              <p className="text-slate-300 leading-relaxed">Computer vision pipelines for physical security, cross-verifying access control signals with video analysis. Shadow mode rollout methodology with per-site evaluation frameworks and automatic reversion. Real-time compliance monitoring across 300,000+ devices.</p>
-            </div>
-
-            {/* Fleet Automation & Provisioning */}
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Fleet Automation & Provisioning</h3>
-              <p className="text-slate-300 leading-relaxed">Zero-touch device deployment across four organizations. Event-driven provisioning pipelines compressing 6-week timelines to 2. Phased delivery with independent deliverables, and automated safety checks replacing manual validation.</p>
-            </div>
-
-            {/* Engineering Leadership */}
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
-              <p className="text-slate-300 leading-relaxed">Building teams from zero, driving cross-org coalitions, structured autonomy. Hands-on technical leadership: code reviews, architecture decisions, and writing the business case documents myself.</p>
             </div>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function Home() {
                 </div>
               </div>
               <ul className="text-slate-300 leading-relaxed space-y-3">
-                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Lead 10 engineers across two teams building the Optics video platform, securing 2,355+ AWS data centers, fulfillment centers, and Prime Air facilities worldwide</li>
+                <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Lead two teams building the Optics video platform, securing AWS data centers, fulfillment centers, and Prime Air facilities worldwide</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Design ML-powered unauthorized access detection targeting 48% reduction of false alarms and 43,000+ hours of annual investigation time savings</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Architect resilient on-premises edge computing and video streaming solutions for air-gapped environments with bi-weekly release cycles</li>
                 <li className="flex gap-2"><span className="text-purple-400 shrink-0">&#8226;</span>Drive zero-touch provisioning roadmap across four organizations, cutting device deployment from 6 weeks to 2 per site</li>
