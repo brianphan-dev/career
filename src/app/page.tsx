@@ -136,7 +136,7 @@ export default function Home() {
               What I build.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              Systems that run inside data centers, where operational failure has physical consequences.
+              Systems that run inside data centers, not just on top of them.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -360,7 +360,7 @@ export default function Home() {
               Leadership through real experience.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-              My approach comes from building and operating systems where the stakes are physical. Cameras stop recording, alarms stop firing, data centers can&apos;t activate. That shapes everything about how I manage.
+              My approach comes from managing teams where you can&apos;t just roll back and try again. If the deployment breaks video recording at a site, there&apos;s a real security gap until it&apos;s fixed. That urgency shapes everything about how I manage.
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-6">
