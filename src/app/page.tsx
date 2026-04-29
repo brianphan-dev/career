@@ -36,7 +36,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl">
-                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading teams building the systems that secure Amazon&apos;s data centers: AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring across 2,355+ facilities, where software failures have physical consequences.
+                I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading teams building the systems that secure Amazon&apos;s data centers across 2,355+ facilities. AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring. Where software failures have physical consequences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
@@ -69,45 +69,53 @@ export default function Home() {
               Systems that run inside data centers, not just on top of them.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="max-w-4xl mx-auto space-y-6">
+            <div className="flex items-start gap-4 group">
+              <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center shrink-0 mt-1">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">DC Infrastructure & Edge Computing</h3>
-              <p className="text-slate-300 leading-relaxed">Designing software for air-gapped environments where you can&apos;t just redeploy. Store-and-forward resilience, staggered fleet rollouts with automated validation, and local-first architectures that survive connectivity loss without human intervention.</p>
+              <div>
+                <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">DC Infrastructure & Edge Computing</h3>
+                <p className="text-slate-400 leading-relaxed">Air-gapped deployment, store-and-forward resilience, staggered fleet rollouts, local-first architectures that survive connectivity loss.</p>
+              </div>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-start gap-4 group">
+              <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center shrink-0 mt-1">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">AI/ML Systems in Production</h3>
-              <p className="text-slate-300 leading-relaxed">Taking ML models from training to fleet-wide deployment. Shadow mode rollout methodology, per-site evaluation frameworks with automatic reversion, and the organizational trust-building required to replace manual processes with AI.</p>
+              <div>
+                <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">AI/ML Systems in Production</h3>
+                <p className="text-slate-400 leading-relaxed">Shadow mode rollout methodology, per-site evaluation frameworks with automatic reversion, organizational trust-building for replacing manual processes with AI.</p>
+              </div>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-start gap-4 group">
+              <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg flex items-center justify-center shrink-0 mt-1">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Fleet Automation & Cross-Org Programs</h3>
-              <p className="text-slate-300 leading-relaxed">Event-driven automation replacing manual coordination at scale. Writing the business case, building the coalition across organizations that don&apos;t report to you, and structuring delivery so independent teams can ship without blocking each other.</p>
+              <div>
+                <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">Fleet Automation & Cross-Org Programs</h3>
+                <p className="text-slate-400 leading-relaxed">Event-driven automation at scale, cross-org coalition building, phased delivery with independent milestones so teams ship without blocking each other.</p>
+              </div>
             </div>
 
-            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
-              <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-start gap-4 group">
+              <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg flex items-center justify-center shrink-0 mt-1">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
-              <p className="text-slate-300 leading-relaxed">Building teams from zero, hands-on technical leadership through code reviews and architecture decisions, and developing engineers through stretch assignments matched to career goals. Structured autonomy: clear goals, real ownership, protected focus.</p>
+              <div>
+                <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">Engineering Leadership</h3>
+                <p className="text-slate-400 leading-relaxed">Building teams from zero, hands-on code reviews and architecture decisions, stretch assignments matched to career goals. Structured autonomy.</p>
+              </div>
             </div>
           </div>
         </div>
