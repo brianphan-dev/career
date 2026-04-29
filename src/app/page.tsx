@@ -10,6 +10,7 @@ export default function Home() {
             <a href="#expertise" className="text-slate-300 hover:text-purple-400 transition-colors">Expertise</a>
             <a href="#projects" className="text-slate-300 hover:text-purple-400 transition-colors">Projects</a>
             <a href="#experience" className="text-slate-300 hover:text-purple-400 transition-colors">Experience</a>
+            <a href="#leadership" className="text-slate-300 hover:text-purple-400 transition-colors">Leadership</a>
             <a href="#contact" className="text-slate-300 hover:text-purple-400 transition-colors">Contact</a>
           </nav>
           <div className="md:hidden">
@@ -38,8 +39,8 @@ export default function Home() {
                 I&apos;m a <strong className="text-purple-400">Software Engineering Manager</strong> at AWS, leading teams building the systems that secure Amazon&apos;s data centers: AI-powered threat detection, on-premises edge video, automated device provisioning, and real-time camera compliance monitoring across 2,355+ facilities, where software failures have physical consequences.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="#projects" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
-                  View Projects
+                <a href="#expertise" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all">
+                  View Expertise
                 </a>
                 <a href="#contact" className="px-6 py-3 border border-slate-600 text-slate-300 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all">
                   Let&apos;s Connect
@@ -69,7 +70,6 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* DC Infrastructure & Edge Computing */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,6 @@ export default function Home() {
               <p className="text-slate-300 leading-relaxed">Designing software for air-gapped environments where you can&apos;t just redeploy. Store-and-forward resilience, staggered fleet rollouts with automated validation, and local-first architectures that survive connectivity loss without human intervention.</p>
             </div>
 
-            {/* AI-Powered Detection Systems */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,7 +90,6 @@ export default function Home() {
               <p className="text-slate-300 leading-relaxed">Taking ML models from training to fleet-wide deployment. Shadow mode rollout methodology, per-site evaluation frameworks with automatic reversion, and the organizational trust-building required to replace manual processes with AI.</p>
             </div>
 
-            {/* Fleet Automation & Provisioning */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -102,7 +100,6 @@ export default function Home() {
               <p className="text-slate-300 leading-relaxed">Event-driven automation replacing manual coordination at scale. Writing the business case, building the coalition across organizations that don&apos;t report to you, and structuring delivery so independent teams can ship without blocking each other.</p>
             </div>
 
-            {/* Engineering Leadership */}
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition-all group">
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-500 rounded-lg mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -117,10 +114,10 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="py-20 px-6 bg-slate-900">
+      <section id="projects" className="py-24 px-6 bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-4">
               What I&apos;m building now.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
@@ -286,44 +283,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Education & Certifications */}
-      <section id="education" className="py-20 px-6 bg-slate-900">
+      {/* Leadership */}
+      <section id="leadership" className="py-24 px-6 bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              Education & Certifications
-            </h2>
-          </div>
-          <div className="max-w-4xl mx-auto space-y-6">
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h3 className="text-xl font-semibold text-white mb-2">University of Maryland, College Park</h3>
-                  <p className="text-slate-300">B.S. in Computer Science, Mathematics, and Geographic Information Systems</p>
-                  <p className="text-slate-400 text-sm mt-1">September 2010 - December 2013</p>
-                </div>
-                <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-yellow-500 rounded-lg flex items-center justify-center shrink-0 ml-4">
-                  <span className="text-white font-bold text-xs">UMD</span>
-                </div>
-              </div>
-            </div>
-            <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-purple-500/50 transition-all">
-              <h3 className="text-xl font-semibold text-white mb-4">Certifications</h3>
-              <div className="flex flex-wrap gap-4">
-                <span className="px-4 py-2 bg-purple-900/30 border border-purple-500/30 rounded-lg text-purple-300">ISC2 CC, Certified in Cybersecurity</span>
-                <span className="px-4 py-2 bg-blue-900/30 border border-blue-500/30 rounded-lg text-blue-300">IAPP CIPT, Certified Information Privacy Technologist</span>
-                <span className="px-4 py-2 bg-emerald-900/30 border border-emerald-500/30 rounded-lg text-emerald-300">Top Secret / SCI Clearance</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Philosophy */}
-      <section className="py-20 px-6 bg-slate-800">
-        <div className="max-w-6xl mx-auto">
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-4">
               Leadership through real experience.
             </h2>
             <p className="text-slate-300 text-lg max-w-3xl mx-auto">
@@ -353,43 +317,46 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Technical Skills */}
-      <section id="skills" className="py-20 px-6 bg-slate-900">
+      {/* Background: Education, Certs, Skills */}
+      <section className="py-16 px-6 bg-slate-800">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-              Technical Skills
+          <div className="mb-12 text-center">
+            <h2 className="text-2xl md:text-3xl font-light text-white mb-2">
+              Background
             </h2>
           </div>
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Education */}
             <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Languages</h3>
-              <div className="flex flex-wrap gap-3">
-                {["Java", "Python", "C/C++", "JavaScript/TypeScript", "C#", "SQL"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
-                    {skill}
-                  </span>
-                ))}
-              </div>
+              <h3 className="text-sm font-semibold text-purple-400 uppercase tracking-wider mb-4">Education</h3>
+              <p className="text-white font-medium">University of Maryland, College Park</p>
+              <p className="text-slate-400 text-sm">B.S. Computer Science, Mathematics, GIS</p>
+              <p className="text-slate-500 text-sm">2010 - 2013</p>
             </div>
+            {/* Certifications */}
             <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Systems</h3>
-              <div className="flex flex-wrap gap-3">
-                {["Data Center Infrastructure Management", "Fleet Management & Provisioning", "On-Premises Edge Computing", "Air-Gapped Deployment", "Physical Security Systems", "ML/AI Detection Pipelines", "Large-Scale Video Platforms", "Hybrid Cloud-Edge Architecture", "Distributed Systems", "Data Center Network Fabrics", "Device Provisioning Automation", "CI/CD & Agile Delivery"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-slate-800/50 border border-slate-700 rounded-lg text-slate-300 hover:border-purple-500/50 transition-all">
-                    {skill}
-                  </span>
-                ))}
-              </div>
+              <h3 className="text-sm font-semibold text-purple-400 uppercase tracking-wider mb-4">Certifications</h3>
+              <ul className="text-slate-300 text-sm space-y-2">
+                <li>ISC2 CC, Cybersecurity</li>
+                <li>IAPP CIPT, Privacy Technologist</li>
+                <li>Top Secret / SCI Clearance</li>
+              </ul>
+            </div>
+            {/* Skills */}
+            <div>
+              <h3 className="text-sm font-semibold text-purple-400 uppercase tracking-wider mb-4">Technical Skills</h3>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Java, Python, C/C++, TypeScript, C#, SQL. DC infrastructure management, fleet provisioning, edge computing, air-gapped deployment, ML/AI pipelines, distributed systems.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* What I'm Looking For */}
-      <section className="py-20 px-6 bg-slate-800">
+      <section className="py-16 px-6 bg-slate-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-light text-white mb-6">
+          <h2 className="text-2xl md:text-3xl font-light text-white mb-6">
             What I&apos;m looking for.
           </h2>
           <p className="text-lg text-slate-300 leading-relaxed">
@@ -399,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-6 bg-slate-900">
+      <section id="contact" className="py-20 px-6 bg-slate-800">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-light text-white mb-12">Let&apos;s Connect</h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
